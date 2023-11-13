@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@android:drawable/ic_menu_call"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:backgroundTint="#2196F3"
+        android:backgroundTintMode="add"
+        android:padding="16dp"
+        android:text="Texto"
+        android:textColorHint="#050202"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F6B174"
+        android:onClick="enviarMensaje"
+        android:text="Enviar Mensaje"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnAlert"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CA0000"
+        android:onClick="onClick"
+        android:text="Alertas"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:icon="@drawable/baseline_add_alert_24"
+        app:iconPadding="16dp"
+        app:iconSize="32dp"
+        app:iconTint="#000000"
+        app:rippleColor="#000000" />
+
+
+    <Button
+        android:id="@+id/btnCapturarFoto"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#25CC00"
+        android:onClick="btnCapturarFoto"
+        android:text="Tomar Foto"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:icon="@android:drawable/ic_menu_camera"
+        app:iconSize="24dp"
+        app:iconTint="#040300" />
+
+    <Button
+        android:id="@+id/btnIrAActividad2"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:onClick="irAActividad2"
+        android:text="Ver fotos"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnGrabarVideo"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFEB3B"
+        android:drawableStart="@android:drawable/presence_video_away"
+        android:onClick="btnGrabarVideo"
+        android:text=" Video"
+        android:textColor="#000805"
+        android:textSize="20sp"
+        app:icon="@android:drawable/presence_video_busy"
+        app:iconSize="24dp"
+        app:iconTint="#000000"
+    />
+
+    <Button
+        android:id="@+id/VerMapa"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#AB00DA"
+        android:onClick="VerMapa"
+        android:text="Ver Mapa"
+        android:textColor="#000805"
+        android:textSize="24sp"
+        app:icon="@android:drawable/ic_dialog_map"
+        app:iconSize="24dp"
+        app:iconTint="#FDFDFD" />
+
+    <Button
+        android:id="@+id/llamada"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:onClick="onCallButtonClick"
+        android:text="Policia"
+        android:textColor="#00F40D"
+        android:textSize="20sp"
+        app:icon="@android:drawable/sym_action_call"
+        app:iconSize="24dp"
+        app:iconTint="#36F800" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seguridad Local"
+        android:textColor="#0003AF"
+        android:textSize="48sp" />
+
+
+    <Button
+        android:id="@+id/irAAuthMainActivity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:backgroundTintMode="add"
+        android:text="Iniciar sesión" />
+
+</LinearLayout>
+</ScrollView>
+
+
